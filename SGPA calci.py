@@ -43,10 +43,7 @@ try:
             code = ITV
         # elif branch == 'IT' and semester == 'VI':
         #     code = ITVI
-        # elif branch == 'IT' and semester == 'VII':
-        #     code = ITVII
-        # elif branch == 'IT' and semester == 'VIII':
-        #     code = ITVIII
+        
         else:
             flag = 0
             st.text(f'NO DATA PROVIDED FOR {branch} Branch {semester} semester')
