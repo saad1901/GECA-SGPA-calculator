@@ -23,7 +23,7 @@ if 'selected_grades' not in st.session_state:
 a, b, c = st.columns(3)
 branch = a.selectbox('Branch', [''] + branches)
 semester = b.selectbox('Semester', [''] + semesters)
-st.text('_____________________________________________________________________________________')
+st.text('---')
 # submit1 = st.button('Submit')
 x, y, z, w = st.columns(4)
 l, m, n = st.columns(3)
